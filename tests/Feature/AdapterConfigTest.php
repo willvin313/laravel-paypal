@@ -1,16 +1,16 @@
 <?php
 
-namespace Srmklive\PayPal\Tests\Feature;
+namespace Willvin\PayPal\Tests\Feature;
 
 use PHPUnit\Framework\TestCase;
-use Srmklive\PayPal\Services\PayPal as PayPalClient;
-use Srmklive\PayPal\Tests\MockClientClasses;
+use Willvin\PayPal\Services\PayPal as PayPalClient;
+use Willvin\PayPal\Tests\MockClientClasses;
 
 class AdapterConfigTest extends TestCase
 {
     use MockClientClasses;
 
-    /** @var \Srmklive\PayPal\Services\PayPal */
+    /** @var \Willvin\PayPal\Services\PayPal */
     protected $client;
 
     protected function setUp(): void

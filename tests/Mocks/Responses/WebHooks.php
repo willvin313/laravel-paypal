@@ -1,6 +1,6 @@
 <?php
 
-namespace Srmklive\PayPal\Tests\Mocks\Responses;
+namespace Willvin\PayPal\Tests\Mocks\Responses;
 
 trait WebHooks
 {

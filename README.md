@@ -27,7 +27,7 @@ Following are some ways through which you can access the paypal provider:
 
 ```php
 // Import the class namespaces first, before using it directly
-use Srmklive\PayPal\Services\PayPal as PayPalClient;
+use Willvin\PayPal\Services\PayPal as PayPalClient;
 
 $provider = new PayPalClient;
 

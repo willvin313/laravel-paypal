@@ -1,11 +1,11 @@
 <?php
 
-namespace Srmklive\PayPal\Facades;
+namespace Willvin\PayPal\Facades;
 
 /*
  * Class Facade
- * @package Srmklive\PayPal\Facades
- * @see Srmklive\PayPal\ExpressCheckout
+ * @package Willvin\PayPal\Facades
+ * @see Willvin\PayPal\ExpressCheckout
  */
 
 use Illuminate\Support\Facades\Facade;
@@ -19,6 +19,6 @@ class PayPal extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'Srmklive\PayPal\PayPalFacadeAccessor';
+        return 'Willvin\PayPal\PayPalFacadeAccessor';
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Srmklive\PayPal\Traits\PayPalAPI;
+namespace Willvin\PayPal\Traits\PayPalAPI;
 
 trait WebHooksEvents
 {

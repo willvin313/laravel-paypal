@@ -1,6 +1,6 @@
 <?php
 
-namespace Srmklive\PayPal\Traits;
+namespace Willvin\PayPal\Traits;
 
 use RuntimeException;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Srmklive\PayPal\Tests\Mocks\Requests;
+namespace Willvin\PayPal\Tests\Mocks\Requests;
 
 trait InvoicesSearch
 {

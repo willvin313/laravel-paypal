@@ -1,9 +1,9 @@
 <?php
 
-namespace Srmklive\PayPal;
+namespace Willvin\PayPal;
 
 use Exception;
-use Srmklive\PayPal\Services\PayPal as PayPalClient;
+use Willvin\PayPal\Services\PayPal as PayPalClient;
 
 class PayPalFacadeAccessor
 {
@@ -19,7 +19,7 @@ class PayPalFacadeAccessor
      *
      * @throws Exception
      *
-     * @return \Srmklive\PayPal\Services\PayPal
+     * @return \Willvin\PayPal\Services\PayPal
      */
     public static function getProvider()
     {
@@ -31,7 +31,7 @@ class PayPalFacadeAccessor
      *
      * @throws \Exception
      *
-     * @return \Srmklive\PayPal\Services\PayPal
+     * @return \Willvin\PayPal\Services\PayPal
      */
     public static function setProvider()
     {

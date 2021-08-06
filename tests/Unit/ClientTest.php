@@ -1,11 +1,11 @@
 <?php
 
-namespace Srmklive\PayPal\Tests\Unit;
+namespace Willvin\PayPal\Tests\Unit;
 
 use GuzzleHttp\Client as HttpClient;
 use PHPUnit\Framework\TestCase;
-use Srmklive\PayPal\Tests\MockClientClasses;
-use Srmklive\PayPal\Tests\MockResponsePayloads;
+use Willvin\PayPal\Tests\MockClientClasses;
+use Willvin\PayPal\Tests\MockResponsePayloads;
 
 class ClientTest extends TestCase
 {

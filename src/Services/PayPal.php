@@ -1,9 +1,9 @@
 <?php
 
-namespace Srmklive\PayPal\Services;
+namespace Willvin\PayPal\Services;
 
 use Exception;
-use Srmklive\PayPal\Traits\PayPalRequest as PayPalAPIRequest;
+use Willvin\PayPal\Traits\PayPalRequest as PayPalAPIRequest;
 
 class PayPal
 {

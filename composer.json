@@ -12,12 +12,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "willvin\\PayPal\\": "src/"
+      "Willvin\\PayPal\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "willvin\\PayPal\\Tests\\": "tests/"
+      "Willvin\\PayPal\\Tests\\": "tests/"
     }
   },
   "require": {
@@ -36,10 +36,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "willvin\\PayPal\\Providers\\PayPalServiceProvider"
+        "Willvin\\PayPal\\Providers\\PayPalServiceProvider"
       ],
       "aliases": {
-        "PayPal": "willvin\\PayPal\\Facades\\PayPal"
+        "PayPal": "Willvin\\PayPal\\Facades\\PayPal"
       }
     }
   },

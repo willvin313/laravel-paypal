@@ -1,13 +1,13 @@
 <?php
 
-namespace Srmklive\PayPal\Tests\Feature;
+namespace Willvin\PayPal\Tests\Feature;
 
 use Carbon\Carbon;
 use PHPUnit\Framework\TestCase;
-use Srmklive\PayPal\Services\PayPal as PayPalClient;
-use Srmklive\PayPal\Tests\MockClientClasses;
-use Srmklive\PayPal\Tests\MockRequestPayloads;
-use Srmklive\PayPal\Tests\MockResponsePayloads;
+use Willvin\PayPal\Services\PayPal as PayPalClient;
+use Willvin\PayPal\Tests\MockClientClasses;
+use Willvin\PayPal\Tests\MockRequestPayloads;
+use Willvin\PayPal\Tests\MockResponsePayloads;
 
 class AdapterFeatureTest extends TestCase
 {
@@ -21,7 +21,7 @@ class AdapterFeatureTest extends TestCase
     /** @var string */
     protected static $product_id = '';
 
-    /** @var \Srmklive\PayPal\Services\PayPal */
+    /** @var \Willvin\PayPal\Services\PayPal */
     protected $client;
 
     protected function setUp(): void

@@ -1,11 +1,11 @@
 <?php
 
-namespace Srmklive\PayPal\Tests\Unit;
+namespace Willvin\PayPal\Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
-use Srmklive\PayPal\Services\PayPal as PayPalClient;
-use Srmklive\PayPal\Tests\MockClientClasses;
-use Srmklive\PayPal\Tests\MockResponsePayloads;
+use Willvin\PayPal\Services\PayPal as PayPalClient;
+use Willvin\PayPal\Tests\MockClientClasses;
+use Willvin\PayPal\Tests\MockResponsePayloads;
 
 class AdapterTest extends TestCase
 {

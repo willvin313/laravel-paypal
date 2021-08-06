@@ -1,11 +1,11 @@
 <?php
 
-namespace Srmklive\PayPal\Tests\Unit\Adapter;
+namespace Willvin\PayPal\Tests\Unit\Adapter;
 
 use Carbon\Carbon;
 use PHPUnit\Framework\TestCase;
-use Srmklive\PayPal\Tests\MockClientClasses;
-use Srmklive\PayPal\Tests\MockResponsePayloads;
+use Willvin\PayPal\Tests\MockClientClasses;
+use Willvin\PayPal\Tests\MockResponsePayloads;
 
 class ReportingTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Srmklive\PayPal\Tests;
+namespace Willvin\PayPal\Tests;
 
 trait MockResponsePayloads
 {
