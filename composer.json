@@ -1,28 +1,28 @@
 {
-  "name": "srmklive/paypal",
+  "name": "willvin/paypal",
   "type": "library",
   "description": "Laravel plugin For Processing Payments Through Paypal Express Checkout. Can Be Used Independently With Other Applications.",
   "keywords": ["http", "rest", "web service", "paypal", "laravel paypal"],
   "license": "MIT",
   "authors": [
     {
-      "name": "Raza Mehdi",
-      "email": "srmk@outlook.com"
+      "name": "willvin",
+      "email": "info@willvin.com"
     }
   ],
   "autoload": {
     "psr-4": {
-      "Srmklive\\PayPal\\": "src/"
+      "willvin\\PayPal\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Srmklive\\PayPal\\Tests\\": "tests/"
+      "willvin\\PayPal\\Tests\\": "tests/"
     }
   },
   "require": {
     "php": ">=7.2|^8.0",
-    "guzzlehttp/guzzle": "~7.0",
+    "guzzlehttp/guzzle": "~6.0|~7.0",
     "illuminate/support": "~6.0|~7.0|~8.0",
     "nesbot/carbon": "~2.0"
   },
@@ -36,13 +36,13 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Srmklive\\PayPal\\Providers\\PayPalServiceProvider"
+        "willvin\\PayPal\\Providers\\PayPalServiceProvider"
       ],
       "aliases": {
-        "PayPal": "Srmklive\\PayPal\\Facades\\PayPal"
+        "PayPal": "willvin\\PayPal\\Facades\\PayPal"
       }
     }
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable": true
 }
